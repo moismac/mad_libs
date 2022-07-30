@@ -1,0 +1,8 @@
+chanchito feliz
+ls                                    
+git status                                  """para ver en qu estado estan los archivos"""
+git add prueba.txt                              """para añadir un archivo o cambios a stage"""
+git commit -m "Eliminando algo"                 """para commitear el archivo que estaba en stage"""
+git commit                                      """mejor usar el anterior git commit"""
+git restore --staged prueba2.txt               """para sacar un cambio hecho en el doc del stage"""
+git restore prueba2.txt                        """para restaurar el archivo a la fase de stage"""
